@@ -16,7 +16,6 @@ clear; clc
 ifp='/project/hydrosense/RS_RAW_Data/SMOS_IC/SMOS_IC_ASC/';
 ofp='/project/hydrosense/matlab/mat/SMOS/SMOS_IC/SMOS_IC_ASC/';
 
-%matlab -nodisplay -nosplash -nodesktop -r "run('/sfs/qumulo/qproject/hydrosense/matlab/libs/SMOS/SMOS_SPL3SMP.m');exit;"
 for year_=2019:2019
     
     [~, cmdout]=system(['find ',ifp,' -iname "*_',num2str(year_),'*"']);
