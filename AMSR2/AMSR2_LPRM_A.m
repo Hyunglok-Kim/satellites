@@ -6,6 +6,7 @@
 % INPUTS: AMSR2 nc files
 %
 % DESCRIPTION:
+% Same code for the AMSR2 descending data
 %
 % REVISION HISTORY: 
 % 9 Jul 2020 Hyunglok Kim; initial specification
