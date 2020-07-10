@@ -61,10 +61,9 @@ for year_=2019:2019
 
          end
      end
-     disp('saving SM data...')
+
      save([ofp,num2str(year_),'_ASCAT_SM.mat'],'ASCAT_SM', 'lat','lon', '-v7.3')
      %clearvars ASCAT_SM
-     disp('fisnihed')
      
      ASCAT_QFLAG=nan_frame_3d;
      t_file=[];
@@ -80,10 +79,7 @@ for year_=2019:2019
          end
      end
      
-     disp('saving QFLAG data...')
      save([ofp,num2str(year_),'_ASCAT_QFLAG.mat'],'ASCAT_QFLAG', 'lat','lon','-v7.3')
-     clearvars ASCAT_QFLAG
-     disp('fisnihed')
      
      ASCAT_SSF=nan_frame_3d;
      t_file=[];
@@ -99,8 +95,7 @@ for year_=2019:2019
          end
      end
      
-     disp('saving SSF data...')
      save([ofp,num2str(year_),'_ASCAT_SSF.mat'],'ASCAT_SSF', 'lat','lon','-v7.3')
      clearvars ASCAT_SSF
-     disp('fisnihed')
+
 end
