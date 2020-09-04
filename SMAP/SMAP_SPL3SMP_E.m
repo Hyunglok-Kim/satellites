@@ -14,7 +14,6 @@
 clear; clc
 ifp='/project/hydrosense/LIS_INPUT/RS_DATA/SMAP/SPL3SMP_E.003/'; % folder path for SPL3SMP
 ofp='/project/hydrosense/matlab/mat/SMAP/SPL3SMP_E.003/'; % folder path for outpus
-disp('path added')
 
 for year_=2019:2019
     
